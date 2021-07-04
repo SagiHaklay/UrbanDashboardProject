@@ -1,0 +1,11 @@
+.above-map {
+    z-index: 10000;
+}
+
+.menu {
+    top: 10px;
+    left: 10px;
+    height: 500px;
+    width: 250px;
+    background-color: gray;
+}
