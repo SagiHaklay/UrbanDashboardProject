@@ -1,5 +1,6 @@
 <div class="menu above-map">
-    <div *ngFor="let layer of layers">
-        {{layer}}
+    <div *ngFor="let layer of hebrewLayers; let i=index">
+        <span>{{layer}}</span>
+        <input type="checkbox" [(ngModel)]="isChecked[i]" (change)="onChecked(i)" />
     </div>
 </div>

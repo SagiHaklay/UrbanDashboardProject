@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { MapComponent } from './map/map.component';
 import { LayerSelectComponent } from './layer-select/layer-select.component';
@@ -12,7 +12,8 @@ import { LayerSelectComponent } from './layer-select/layer-select.component';
     LayerSelectComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
